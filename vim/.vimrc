@@ -86,7 +86,7 @@ let g:airline_powerline_fonts = 1
 set completeopt-=preview
 
 " gvim
-set guifont=Hack:h9
+set guifont=DejaVu_Sans_Mono_for_Powerline:h9:cANSI
 set guioptions-=T            " Remove toolbar
 set guioptions-=m            " Remove menu
 set guioptions-=r            " Remove right scrollbar
