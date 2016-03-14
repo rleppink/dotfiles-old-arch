@@ -4,7 +4,7 @@
 		<Include>*</Include>
 		<UserInclude>*reddit.com*</UserInclude>
 	</Script>
-	<Script basedir="Geocaching_improvements" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="" enabled="true" filename="Geocaching_improvements.user.js" installTime="1456241343995" modified="1457954470730" name="Geocaching improvements" namespace="com.rleppink.geocachingimprovements" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="de1fabbf-3890-423e-a4ad-5c96f1557185" version="1" installurl="file:///C:/Users/ronaldl/AppData/Roaming/Mozilla/Firefox/Profiles/m09l008k.default-1420716667619/gm_scripts/Geocaching_improvements/Geocaching_improvements.user.js" updateurl="file:///C:/Users/ronaldl/AppData/Roaming/Mozilla/Firefox/Profiles/m09l008k.default-1420716667619/gm_scripts/Geocaching_improvements/Geocaching_improvements.user.js">
+	<Script basedir="Geocaching_improvements" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="" enabled="true" filename="Geocaching_improvements.user.js" installTime="1456241343995" modified="1457955072030" name="Geocaching improvements" namespace="com.rleppink.geocachingimprovements" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="de1fabbf-3890-423e-a4ad-5c96f1557185" version="1" installurl="file:///C:/Users/ronaldl/AppData/Roaming/Mozilla/Firefox/Profiles/m09l008k.default-1420716667619/gm_scripts/Geocaching_improvements/Geocaching_improvements.user.js" updateurl="file:///C:/Users/ronaldl/AppData/Roaming/Mozilla/Firefox/Profiles/m09l008k.default-1420716667619/gm_scripts/Geocaching_improvements/Geocaching_improvements.user.js">
 		<Grant>none</Grant>
 		<Include>*</Include>
 		<UserInclude>*geocaching.com*</UserInclude>
