@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name        Geocaching improvements
+// @name        geocaching.com: Geocaching improvements
 // @namespace   com.rleppink.geocachingimprovements
 // @version     1
 // @grant       none

@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name        hn-newcommentline
+// @name        hackernews: highlight new comments
 // @namespace   nl.rleppink.hn-newcommentline
 // @include     news.ycombinator.com
 // @version     1

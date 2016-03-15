@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name        Hide Reddit sidebar
+// @name        reddit.com: Hide sidebar
 // @namespace   com.rleppink.hideredditsidebar
 // @description Hides the sidebar on reddit.com
 // @version     1.0
