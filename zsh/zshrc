@@ -21,4 +21,4 @@ export PATH="/usr/local/sbin:$PATH"
 set -o ignoreeof
 
 # minimalism quote
-gshuf -n 1 ~/.minimalism | cat
+{shuf -n 1 .minimalism 2> /dev/null} || {gshuf -n 1 ~/.minimalism} | cat
