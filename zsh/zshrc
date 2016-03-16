@@ -13,12 +13,18 @@ fi
 # Customize to your needs...
 alias htop='sudo htop'
 alias lsa='ls -lahF'
-alias msc='ncmpcpp -h 192.168.1.8'
+alias msc='ncmpcpp -h 192.168.1.6'
 
 export PATH="/usr/local/sbin:$PATH"
 
 # Disable CTRL + D terminal closing
 set -o ignoreeof
 
+# Add a horizontal line before commands
+setopt promptsubst
+PS1=$'${(r:$COLUMNS::\u2500:)}'$PS1
+
 # minimalism quote
 {shuf -n 1 .minimalism 2> /dev/null} || {gshuf -n 1 ~/.minimalism} | cat
+
+
