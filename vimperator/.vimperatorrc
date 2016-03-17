@@ -22,11 +22,19 @@ function toggle_bottombar(p) {
     bb.style.height = (bb.style.height == '') ? '0px' : '';
     bb.style.overflow = (bb.style.height == '') ? '' : 'hidden';
 }
-
 EOF
 
+" Center and limit width for current webpage
 javascript function makePageReadable() { window.content.window.document.body.style.width = '1000px'; window.content.window.document.body.style.margin = '0 auto'; }
 command! mpr javascript makePageReadable()
+
+" Make 'mpr' webpage smaller
+javascript function makeReadablePageSmaller() { var currentBody = window.content.window.document.body; currentBody.style.width = (parseInt(currentBody.style.width.replace(/[^\d\.\-]/g,'')) - 100) + "px"; }
+command! mps javascript makeReadablePageSmaller()
+
+" Make 'mpr' webpage larger
+javascript function makeReadablePageLarger() { var currentBody = window.content.window.document.body; currentBody.style.width = (parseInt(currentBody.style.width.replace(/[^\d\.\-]/g,'')) + 100) + "px"; }
+command! mpl javascript makeReadablePageLarger()
 
 " Always save session when quitting
 command! qall xall

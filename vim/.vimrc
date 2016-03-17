@@ -72,9 +72,10 @@ inoremap <C-tab>   <Esc>:tabnext<CR>i
 inoremap <C-t>     <Esc>:tabnew<CR>
 
 "" File syntax detection
-au BufNewFile,BufRead *.md set filetype=markdown
+au BufNewFile,BufRead *.md setf markdown
 au BufNewFile,BufRead *.javap setf java-bytecode
 au BufNewFile,BufRead *.jasmin setf java-bytecode
+au BufNewFile,BufRead *.qss setf css
 
 "" vim-airline settings
 set laststatus=2

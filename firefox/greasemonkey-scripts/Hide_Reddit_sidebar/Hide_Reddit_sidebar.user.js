@@ -29,10 +29,28 @@ function middleColumnComments() {
   $('div.content')[0].style.width = "1000px";
   $('div.content')[0].style.margin = "0 auto";
   $('div.content')[0].style.marginTop = "1.5em";
+};
+
+function hideOrganicListing() {
+  $('.organic-listing').hide();
+};
+
+function hideTrendingSubreddits() {
+  $('.trending-subreddits').hide();
+};
+
+function hideSubredditHeaderArea() {
+  $('#sr-header-area').hide();
 }
 
-window.onload = function () {
+$(document).ready(function () {
   hideSideBar();
   hideCommentBox();
   middleColumnComments();
+  hideTrendingSubreddits();
+  hideSubredditHeaderArea();
+});
+
+window.onload = function () {
+  hideOrganicListing();
 };
