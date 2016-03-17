@@ -19,7 +19,7 @@ Plugin 'neapel/vim-java-bytecode'
 Plugin 'pangloss/vim-javascript'
 Plugin 'Slava/vim-spacebars'
 Plugin 'ctrlpvim/ctrlp.vim'
-Plugin 'neovimhaskell/haskell-vim'
+Plugin 'dag/vim2hs'
 " / Vundle plugins
 
 call vundle#end()            " required
