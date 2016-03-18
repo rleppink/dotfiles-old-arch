@@ -21,10 +21,19 @@ export PATH="/usr/local/sbin:$PATH"
 set -o ignoreeof
 
 # Add a horizontal line before commands
+ColorStart='$fg[red]'
+HorizontalLine=$'${(r:$COLUMNS::\u2500:)}'
 setopt promptsubst
-PS1=$'${(r:$COLUMNS::\u2500:)}'$PS1
+PROMPT=$PROMPT
+setopt promptsubst
+RPROMPT=$'%F{1}⮐%f'
+
 
 # minimalism quote
 {shuf -n 1 .minimalism 2> /dev/null} || {gshuf -n 1 ~/.minimalism} | cat
 
-
+# Add location of custom theme.
+fpath=(
+  ${HOME}/.dotfiles/zsh/themes
+  ${fpath}
+)
