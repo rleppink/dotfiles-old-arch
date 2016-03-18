@@ -2,7 +2,7 @@
 #
 
 # font to use
-font pango:DejaVu Sans Mono 9
+font pango:DejaVu Sans YuanTi Mono 0
 
 # mod key
 set $mod Mod1
@@ -150,7 +150,6 @@ bindsym $mod+r mode "resize"
 bar {
     mode hide
     hidden_state hide
-    modifier $mod
 
     position top
 
@@ -159,3 +158,4 @@ bar {
 
 # Interface styling
 hide_edge_borders both
+
