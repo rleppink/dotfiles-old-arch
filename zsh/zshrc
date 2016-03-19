@@ -31,9 +31,3 @@ RPROMPT=$'%F{1}⮐%f'
 
 # minimalism quote
 {shuf -n 1 .minimalism 2> /dev/null} || {gshuf -n 1 ~/.minimalism} | cat
-
-# Add location of custom theme.
-fpath=(
-  ${HOME}/.dotfiles/zsh/themes
-  ${fpath}
-)
