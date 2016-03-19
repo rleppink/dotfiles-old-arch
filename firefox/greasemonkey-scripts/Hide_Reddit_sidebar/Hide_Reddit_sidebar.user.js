@@ -26,7 +26,7 @@ function hideCommentBox() {
 };
 
 function middleColumnComments() {
-  $('div.content')[0].style.width = "1000px";
+  $('div.content')[0].style.maxWidth = "1000px";
   $('div.content')[0].style.margin = "0 auto";
   $('div.content')[0].style.marginTop = "1.5em";
 };
