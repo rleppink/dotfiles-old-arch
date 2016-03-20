@@ -36,7 +36,7 @@ function prompt_aleatoric_setup {
   editor-info 2> /dev/null
 
   # Define prompts.
-  PROMPT='%B%F{4}%2~%f%b${vcs_info_msg_0_} ${editor_info[keymap]} '
+  PROMPT='%B%F{4}%2~%f%b${vcs_info_msg_0_}${editor_info[keymap]} '
   RPROMPT=''
 }
 
