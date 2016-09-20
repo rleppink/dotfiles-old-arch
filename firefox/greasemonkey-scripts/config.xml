@@ -9,7 +9,7 @@
 		<Include>*</Include>
 		<UserInclude>*geocaching.com*</UserInclude>
 	</Script>
-	<Script basedir="hn-newcommentline-1" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="" enabled="true" filename="hn-newcommentline.user.js" installTime="1456395330279" modified="1458159843000" name="hackernews: highlight new comments" namespace="nl.rleppink.hn-newcommentline" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="bdea2cf1-934e-4e7e-b712-cf2e1f723263" version="1" installurl="file:///C:/Users/ronaldl/AppData/Roaming/Mozilla/Firefox/Profiles/m09l008k.default-1420716667619/gm_scripts/hn-newcommentline-1/hn-newcommentline.user.js" updateurl="file:///C:/Users/ronaldl/AppData/Roaming/Mozilla/Firefox/Profiles/m09l008k.default-1420716667619/gm_scripts/hn-newcommentline-1/hn-newcommentline.user.js">
+	<Script basedir="hn-newcommentline-1" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="" enabled="true" filename="hn-newcommentline.user.js" installTime="1456395330279" modified="1458040363694" name="hackernews: highlight new comments" namespace="nl.rleppink.hn-newcommentline" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="bdea2cf1-934e-4e7e-b712-cf2e1f723263" version="1" installurl="file:///C:/Users/ronaldl/AppData/Roaming/Mozilla/Firefox/Profiles/m09l008k.default-1420716667619/gm_scripts/hn-newcommentline-1/hn-newcommentline.user.js" updateurl="file:///C:/Users/ronaldl/AppData/Roaming/Mozilla/Firefox/Profiles/m09l008k.default-1420716667619/gm_scripts/hn-newcommentline-1/hn-newcommentline.user.js">
 		<Grant>none</Grant>
 		<Include>news.ycombinator.com</Include>
 		<UserInclude>*news.ycombinator.com*</UserInclude>
