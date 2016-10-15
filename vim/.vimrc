@@ -34,6 +34,7 @@ set number                      " show line numbers
 set guioptions-=L
 set clipboard=unnamed
 set cursorline
+set colorcolumn=80
 
 "" Whitespace
 set nowrap                      " don't wrap lines
@@ -71,7 +72,7 @@ inoremap <C-tab>   <Esc>:tabnext<CR>i
 inoremap <C-t>     <Esc>:tabnew<CR>
 
 "" File syntax detection
-au BufNewFile,BufRead *.md setf markdown
+au BufNewFile,BufRead *.md set filetype=markdown
 au BufNewFile,BufRead *.javap setf java-bytecode
 au BufNewFile,BufRead *.jasmin setf java-bytecode
 au BufNewFile,BufRead *.qss setf css
