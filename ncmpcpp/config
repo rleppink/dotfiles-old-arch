@@ -150,3 +150,10 @@ active_column_color = "red"
 visualizer_color = "magenta"
 #window_border_color = "green"
 #active_window_border = "red"
+#
+#
+#
+
+
+#testing
+mpd_music_dir = /var/lib/mpd/music/
