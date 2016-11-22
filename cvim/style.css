@@ -43,7 +43,7 @@
   top: 0;
   width: calc(100% - 10px);
   position: absolute;
-  font-size: 1.2em !important;
+  font-size: 1em !important;
   padding: 4px 4px 2px 2px !important;
 }
 
@@ -168,4 +168,10 @@
   z-index: 9999999999;
   box-sizing: border-box;
   border: 3px solid yellow;
+}
+
+#cVim-status-bar {
+  background-color: #EEE !important;
+  color: #222 !important;
+  font-family: Consolas, monospace !important;
 }
