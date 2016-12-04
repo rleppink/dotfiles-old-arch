@@ -156,4 +156,4 @@ visualizer_color = "magenta"
 
 
 #testing
-mpd_music_dir = /var/lib/mpd/music/
+#mpd_music_dir = /var/lib/mpd/music/

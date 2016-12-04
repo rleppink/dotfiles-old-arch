@@ -1,0 +1,27 @@
+total 180
+drwxr-xr-x 4 rleppink rleppink  4096 Nov 25 20:40 discord-canary
+drwxr-xr-x 4 rleppink rleppink  4096 Nov 26 16:08 dmenu2
+drwxr-xr-x 4 rleppink rleppink  4096 Nov 21 22:27 dropbox
+drwxr-xr-x 4 rleppink rleppink  4096 Nov 21 22:22 google-chrome
+drwxr-xr-x 5 rleppink rleppink  4096 Nov 22 18:57 keepassx-git
+drwxr-xr-x 5 rleppink rleppink  4096 Nov 25 19:07 lemonbar-xft-git
+drwxr-xr-x 4 rleppink rleppink  4096 Nov 23 21:03 steam-fonts
+drwxr-xr-x 5 rleppink rleppink  4096 Nov 26 15:26 system-san-francisco-font-git
+drwxr-xr-x 4 rleppink rleppink  4096 Nov 21 22:18 telegram-desktop-bin
+drwxr-xr-x 4 rleppink rleppink  4096 Nov 25 19:21 ttf-font-awesome
+drwxr-xr-x 4 rleppink rleppink  4096 Nov 26 16:52 ttf-ms-fonts
+drwxr-xr-x 4 rleppink rleppink  4096 Nov 21 22:17 visual-studio-code
+drwxr-xr-x 4 rleppink rleppink  4096 Nov 21 22:39 xflux
+-rw-r--r-- 1 rleppink rleppink  2125 Nov 25 20:39 discord-canary.tar.gz
+-rw-r--r-- 1 rleppink rleppink   844 Nov 26 16:07 dmenu2.tar.gz
+-rw-r--r-- 1 rleppink rleppink 12675 Nov 21 22:27 dropbox.tar.gz
+-rw-r--r-- 1 rleppink rleppink  2677 Nov 21 22:22 google-chrome.tar.gz
+-rw-r--r-- 1 rleppink rleppink  1495 Nov 22 18:51 keepassx-git.tar.gz
+-rw-r--r-- 1 rleppink rleppink   891 Nov 25 19:07 lemonbar-xft-git.tar.gz
+-rw-r--r-- 1 rleppink rleppink   897 Nov 23 21:03 steam-fonts.tar.gz
+-rw-r--r-- 1 rleppink rleppink   716 Nov 26 15:25 system-san-francisco-font-git.tar.gz
+-rw-r--r-- 1 rleppink rleppink 10903 Nov 21 22:17 telegram-desktop-bin.tar.gz
+-rw-r--r-- 1 rleppink rleppink   985 Nov 25 19:21 ttf-font-awesome.tar.gz
+-rw-r--r-- 1 rleppink rleppink  1422 Nov 26 16:52 ttf-ms-fonts.tar.gz
+-rw-r--r-- 1 rleppink rleppink  1371 Nov 21 22:16 visual-studio-code.tar.gz
+-rw-r--r-- 1 rleppink rleppink  4548 Nov 21 22:36 xflux.tar.gz

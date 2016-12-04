@@ -1,7 +1,9 @@
 // Place your settings in this file to overwrite the default settings
 {
-    "editor.fontFamily": "DejaVu Sans Mono for Powerline",
-    "editor.fontSize": 12,
+    "editor.fontFamily": "DejaVu Sans Mono",
+    "editor.fontSize": 13,
     "editor.wrappingColumn": -1,
-    "vim.useCtrlKeys": true
+    "vim.useCtrlKeys": true,
+    "editor.cursorStyle": "block",
+    "explorer.openEditors.visible": 0
 }
