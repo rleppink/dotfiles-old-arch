@@ -1,9 +1,0 @@
-@-moz-document domain("imgur.com") {
-#comments-container, .next-prev, .post-action, #right-content, #secondary-nav {
-	display: none;
-}
-
-.upload-button-container {
-    float: right !important;
-}
-}
