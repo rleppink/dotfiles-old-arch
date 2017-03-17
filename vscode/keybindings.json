@@ -1,5 +1,10 @@
 // Place your key bindings in this file to overwrite the defaults
 [
     { "key": "ctrl+tab", "command": "workbench.action.nextEditor" },
-    { "key": "ctrl+shift+tab", "command": "workbench.action.previousEditor" }
+    { "key": "ctrl+shift+tab", "command": "workbench.action.previousEditor" },
+    { "key": "ctrl+alt+p", "command": "workbench.action.showCommands" },
+    { "key": "ctrl+alt+8", "command": "search.action.focusActiveEditor"},
+    { "key": "ctrl+shift+]", "command": "workbench.action.terminal.focusNext" },
+    { "key": "ctrl+shift+[", "command": "workbench.action.terminal.focusPrevious" },
+    { "key": "ctrl+shift+\\", "command": "workbench.action.terminal.kill" }
 ]
