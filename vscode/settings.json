@@ -4,7 +4,7 @@
     "editor.codeLens": false,
     "editor.cursorStyle": "block",
     "editor.folding": false,
-    "editor.fontFamily": "DejaVu Sans Mono for Powerline",
+    "editor.fontFamily": "DejaVu Sans Mono",
     "editor.fontSize": 12,
     "editor.glyphMargin": false,
     "editor.insertSpaces": false,
@@ -29,7 +29,6 @@
     "typescript.check.tscVersion": false,
     "vim.useCtrlKeys": true,
     "vsicons.dontShowNewVersionMessage": true,
-    "vsicons.projectDetection.autoReload": true,
 
     // Workbench settings
     "workbench.colorTheme": "Monokai Light",
@@ -49,5 +48,11 @@
     // Window settings
     "window.menuBarVisibility": "toggle",
     "window.newWindowDimensions": "maximized",
-    "window.reopenFolders": "all"
-  }
+		"window.reopenFolders": "all",
+		"[cpp]": {
+			"editor.quickSuggestions": false
+		},
+		"[c]": {
+			"editor.quickSuggestions": false
+		}
+	}
