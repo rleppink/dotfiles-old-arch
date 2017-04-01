@@ -1,4 +1,4 @@
-set nocompatible              " be iMproved, required
+set nocompatible              " be iMproved
 set rtp+=~/.vim/              " Does not seem to happen automatically in gvim
 set dir=~/.vim/swp
 
@@ -9,8 +9,8 @@ set number                      " show line numbers
 
 "" Whitespace
 set nowrap                      " don't wrap lines
-set tabstop=4
-set shiftwidth=4
+set tabstop=2
+set shiftwidth=2
 set backspace=indent,eol,start  " backspace through everything in insert mode
 
 "" Searching
