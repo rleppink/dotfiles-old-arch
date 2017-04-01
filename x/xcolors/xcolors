@@ -1,0 +1,49 @@
+#define base00 #222222
+#define base01 #3f3f3f
+#define base02 #5b5b5b
+#define base03 #787878
+#define base04 #949494
+#define base05 #b1b1b1
+#define base06 #cdcdcd
+#define base07 #fafafa
+
+#define base08 #ffb6c1
+#define base09 #fd971f
+#define base0A #f4bf75
+#define base0B #6aaf19
+#define base0C #ae81ff
+#define base0D #90afde
+#define base0E #ae81ff
+#define base0F #cc6633
+
+
+*.foreground:   base00
+*.background:   base07
+*.cursorColor:  base01
+
+*.color0:       base00
+*.color1:       base08
+*.color2:       base0B
+*.color3:       base0A
+*.color4:       base0D
+*.color5:       base0E
+*.color6:       base0C
+*.color7:       base05
+
+*.color8:       base03
+*.color9:       base08
+*.color10:      base0B
+*.color11:      base0A
+*.color12:      base0D
+*.color13:      base0E
+*.color14:      base0C
+*.color15:      base07
+
+! Note: colors beyond 15 might not be loaded (e.g., xterm, urxvt),
+! use 'shell' template to set these if necessary
+*.color16:      base09
+*.color17:      base0F
+*.color18:      base01
+*.color19:      base02
+*.color20:      base04
+*.color21:      base06

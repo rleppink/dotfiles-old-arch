@@ -1,0 +1,20 @@
+# Remove mouse when typing
+unclutter &
+
+# Merge xresources for colors etc.
+xrdb -merge -I$HOME ~/.Xresources
+
+# Remap caps lock to control
+xmodmap ~/.xmodmap
+
+# Set background
+feh --bg-fill ~/Dropbox/wollz/pinkflowers.jpg
+
+# Top bar
+polybar docked-bar &
+
+# Shortcut manager
+sxhkd &
+
+# Window manager
+exec bspwm

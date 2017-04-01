@@ -1,0 +1,137 @@
+[colors]
+background = #fafafa
+background-alt = #cdcdcd
+foreground = #222222
+foreground-alt = #222222
+primary = #cdcdcd
+secondary = #222222
+alert = #222222
+
+
+[global/wm]
+margin-top = 0
+margin-bottom = 0
+
+
+[bar/docked-bar]
+monitor = ${env:MONITOR:DP-0}
+width = 2560
+height = 27
+offset-x = 0
+offset-y = 0
+
+background = ${colors.background}
+foreground = ${colors.foreground}
+
+border-bottom-size = 2
+border-bottom-color = #ffb6c1
+
+padding-left = 1
+padding-right = 2
+
+font-0 = Dejavu Sans Mono:size=10;2
+font-1 = FontAwesome:style=Regular:size=11;2
+
+modules-left = 
+modules-center = bspwm 
+modules-right = date
+
+overline-size = 2
+underline-size = 2
+
+
+[bar/bar]
+monitor = ${env:MONITOR:DP-0}
+width = 2544
+height = 27
+offset-x = 8
+offset-y = 8
+
+background = ${colors.background}
+foreground = ${colors.foreground}
+
+border-size = 1
+border-color = #222
+
+padding-left = 1
+padding-right = 2
+
+font-0 = Dejavu Sans Mono:size=8;0
+font-1 = FontAwesome:style=Regular:size=11;0
+
+modules-left = bspwm
+modules-center = xwindow
+modules-right = volume date
+
+overline-size = 1
+overline-color = #555
+
+underline-size = 1
+underline-color = #555
+
+
+[module/xwindow]
+type = internal/xwindow
+label = %title:0:120:...%
+
+
+[module/bspwm]
+type = internal/bspwm
+
+label-focused = %name%
+label-focused-background = #F2F2F2
+label-focused-overline= #ffb6c1
+# label-focused-underline= #ffb6c1
+label-focused-padding = 2
+
+label-occupied = %name%
+label-occupied-padding = 2
+
+label-urgent = %name% !
+label-urgent-background = ${colors.alert}
+label-urgent-padding = 2
+
+label-empty = %name%
+label-empty-foreground = ${colors.foreground-alt}
+label-empty-padding = 2
+
+
+[module/date]
+type = internal/date
+interval = 5
+
+date = "%A %d %B"
+
+time = %H:%M
+
+label = %date% %time%
+
+
+[module/volume]
+type = internal/volume
+
+format-volume = <label-volume> <bar-volume>
+label-volume = 
+label-volume-foreground = ${root.foreground}
+
+format-muted-foreground = ${colors.foreground}
+label-muted = sound muted
+
+bar-volume-width = 10
+bar-volume-foreground-0 = #55aa55
+bar-volume-foreground-1 = #55aa55
+bar-volume-foreground-2 = #55aa55
+bar-volume-foreground-3 = #55aa55
+bar-volume-foreground-4 = #55aa55
+bar-volume-foreground-5 = #f5a70a
+bar-volume-foreground-6 = #ff5555
+bar-volume-gradient = false
+bar-volume-indicator = │
+bar-volume-indicator-font = 2
+bar-volume-indicator-foreground = #ff
+bar-volume-fill = ─
+bar-volume-fill-font = 2
+bar-volume-empty = ─
+bar-volume-empty-font = 2
+bar-volume-empty-foreground = ${colors.foreground-alt}
+

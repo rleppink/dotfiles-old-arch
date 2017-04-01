@@ -10,25 +10,9 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 fi
 
-# Customize to your needs...
-alias htop='sudo htop'
+# Aliases
 alias lsa='ls -lahF'
-alias msc='ncmpcpp -h 192.168.1.12 -p 6700'
-alias q='exit'
+alias pls='sudo $(fc -ln -1)'  # Repeat the last command as sudo
 
-export PATH="/usr/local/sbin:$PATH"
-
-# Disable CTRL + D terminal closing
-set -o ignoreeof
-
-# Add a horizontal line before commands
-ColorStart='$fg[red]'
-HorizontalLine=$'${(r:$COLUMNS::\u2500:)}'
-setopt promptsubst
-PROMPT=$PROMPT
-setopt promptsubst
-RPROMPT=$'%F{1}⮐%f'
-
-
-# minimalism quote
 {shuf -n 1 .minimalism 2> /dev/null} || {gshuf -n 1 ~/.minimalism} | cat
+
