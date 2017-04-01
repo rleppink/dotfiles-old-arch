@@ -13,10 +13,10 @@ ctrl + alt + e
 
 # screenshot
 Print
-	scrot ~/Pictures/Scrots/%Y%m%dT%H%M%S.png
+	escrotum ~/Pictures/Scrots/%Y-%m-%d %H:%M:%S.png
 
 shift + Print
-	scrot -s ~/Pictures/Scrots/%Y%m%dT%H%M%S.png
+	escrotum -s ~/Pictures/Scrots/%Y-%m-%d %H:%M:%S.png
 
 
 # terminal emulator

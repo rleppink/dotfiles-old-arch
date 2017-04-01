@@ -28,7 +28,6 @@
     // Plugin settings
     "typescript.check.tscVersion": false,
     "vim.useCtrlKeys": true,
-    "vsicons.dontShowNewVersionMessage": true,
 
     // Workbench settings
     "workbench.colorTheme": "Monokai Light",
