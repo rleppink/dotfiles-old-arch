@@ -1,17 +1,6 @@
-# dmenu
+# rofi
 super + space
-	dmenu_run \
-		-l 7 \
-		-q \
-		-i \
-		-fn 'DejaVu Sans Mono:size=10' \
-		-nb $(get_color color9) \
-		-nf $(get_color background) \
-		-sb $(get_color background) \
-		-sf $(get_color color9) \
-		-w 640 \
-		-y 480 \
-		-x 960
+	rofi -show
 
 
 # redshift

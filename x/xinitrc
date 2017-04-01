@@ -18,3 +18,4 @@ sxhkd &
 
 # Window manager
 exec bspwm
+

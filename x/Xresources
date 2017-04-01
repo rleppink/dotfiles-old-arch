@@ -5,7 +5,7 @@ Xcursor.size: 2
 
 ! URxvt config
 URxvt.font: xft:DejaVuSansMono:size=9
-URxvt.internalBorder: 16
+URxvt.internalBorder: 24
 URxvt.pointerBlank: true
 URxvt.saveLines: 10000
 URxvt.scrollBar: False
@@ -16,3 +16,4 @@ Xft.lcdfilter: lcddefault
 Xft.hintstyle: hintslight
 Xft.hinting: 1
 Xft.antialias: 1
+
