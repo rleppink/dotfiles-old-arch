@@ -1,0 +1,4 @@
+#! /bin/sh
+
+xrdb -query | grep $1: | sed -rn 's/.*(#.{6})/\1/p'
+
