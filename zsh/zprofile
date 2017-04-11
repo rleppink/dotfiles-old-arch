@@ -80,7 +80,6 @@ export PATH=$PATH:/home/rleppink/.npm-packages/bin/
 export PATH=$PATH:/home/rleppink/bin/
 
 # Export currently installed pacman packages
-pacman -Qe | sed 's/ .*//g' >! ~/.dotfiles/pacman/packages.txt
+pacman -Qe | sed 's/ .*//g' >! ~/.dotfiles/pacman/packages-thinkpad.txt
 
-dropbox &
 startx

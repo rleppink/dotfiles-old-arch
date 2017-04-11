@@ -2,7 +2,7 @@
 rofi.modi: drun
 
 ! Window width
-rofi.width: 20
+rofi.width: 25
 
 ! Number of lines
 rofi.lines: 5

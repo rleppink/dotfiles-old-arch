@@ -13,6 +13,7 @@ fi
 # Aliases
 alias lsa='ls -lahF'
 alias pls='sudo $(fc -ln -1)'  # Repeat the last command as sudo
+alias msc='ncmpcpp -h 192.168.1.12'
 
-{shuf -n 1 .minimalism 2> /dev/null} || {gshuf -n 1 ~/.minimalism} | cat
+shuf -n 1 .minimalism 2> /dev/null | cat
 

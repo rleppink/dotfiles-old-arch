@@ -2,7 +2,6 @@
 {
     // Editor settings
     "editor.codeLens": false,
-    "editor.cursorStyle": "block",
     "editor.folding": false,
     "editor.fontFamily": "DejaVu Sans Mono",
     "editor.fontSize": 12,
@@ -53,5 +52,6 @@
 		},
 		"[c]": {
 			"editor.quickSuggestions": false
-		}
-	}
+        },
+        "java.errors.incompleteClasspath.severity": "ignore"
+    }

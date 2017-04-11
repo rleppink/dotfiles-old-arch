@@ -7,11 +7,19 @@ xrdb -merge -I$HOME ~/.Xresources
 # Remap caps lock to control
 xmodmap ~/.xmodmap
 
-# Set background
-feh --bg-fill ~/Dropbox/wollz/pinkflowers.jpg
+# Turn off anonying beep
+xset -b
 
-# Top bar
+# Set background
+feh --bg-fill ~/Dropbox/pics/wollz/pinkflowers.jpg
+
+# bar
+polybar battery &
+polybar date &
 polybar docked-bar &
+
+# service for  telegram urgency as it doesn't do that itself
+telegram-urgency &
 
 # Shortcut manager
 sxhkd &

@@ -4,11 +4,12 @@
 Xcursor.size: 2
 
 ! URxvt config
-URxvt.font: xft:DejaVuSansMono:size=9
-URxvt.internalBorder: 24
+URxvt.font: xft:DejaVuSansMono:size=8
+URxvt.internalBorder: 16
 URxvt.pointerBlank: true
 URxvt.saveLines: 10000
 URxvt.scrollBar: False
+URxvt.letterSpace: -1
 
 ! Font config
 Xft.autohint: 0

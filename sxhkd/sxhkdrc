@@ -5,18 +5,18 @@ super + space
 
 # redshift
 ctrl + alt + r
-	redshift -c .redshift
+	redshift
 
 ctrl + alt + e
 	killall redshift && redshift -x
 	
 
 # screenshot
-Print
-	escrotum ~/Pictures/Scrots/%Y-%m-%d %H:%M:%S.png
+ctrl + shift + super + 3
+  maim | xclip -selection clipboard -t image/png
 
-shift + Print
-	escrotum -s ~/Pictures/Scrots/%Y-%m-%d %H:%M:%S.png
+ctrl + shift + super + 4
+	maim -s | xclip -selection clipboard -t image/png
 
 
 # terminal emulator
@@ -26,13 +26,13 @@ super + Return
 
 # volume controls
 XF86AudioRaiseVolume
-	pactl set-sink-volume 0 +6%
+	amixer set Master 5%+ -M
 
 XF86AudioLowerVolume
-	pactl set-sink-volume 0 -6%
+  amixer set Master 5%- -M
 
 XF86AudioMute
-	pactl set-sink-mute 0 toggle
+  amixer set Master toggle
 
 
 # reload sxhkd config
@@ -49,8 +49,12 @@ super + alt + Escape
 	bspc quit
 
 # close and kill
-super + {_,shift + }q
-	bspc node -{c,k}
+super + q
+	bspc node -k
+
+super + w
+    bspc node -c
+
 
 # alternate between the tiled and monocle layout
 super + m

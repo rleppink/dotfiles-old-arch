@@ -6,5 +6,7 @@
     { "key": "ctrl+alt+8", "command": "search.action.focusActiveEditor"},
     { "key": "ctrl+shift+]", "command": "workbench.action.terminal.focusNext" },
     { "key": "ctrl+shift+[", "command": "workbench.action.terminal.focusPrevious" },
-    { "key": "ctrl+shift+\\", "command": "workbench.action.terminal.kill" }
+    { "key": "ctrl+shift+\\", "command": "workbench.action.terminal.kill" },
+    { "key": "ctrl+;", "command": "editor.action.showHover" },
+    { "key": "ctrl+b", "command": "workbench.action.toggleSidebarVisibility" }
 ]
