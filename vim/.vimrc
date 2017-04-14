@@ -40,6 +40,8 @@ au BufNewFile,BufRead *.javap setf java-bytecode
 au BufNewFile,BufRead *.jasmin setf java-bytecode
 au BufNewFile,BufRead *.qss setf css
 
-" Change cursor to caret in insert mode or block caret in normal mode
-let &t_SI = "\<Esc>]50;CursorShape=1\x7"
-let &t_EI = "\<Esc>]50;CursorShape=0\x7"
+"" Change cursor to caret in insert mode or block caret in normal mode
+"let &t_SI = "\<Esc>]50;CursorShape=1\x7"
+"let &t_EI = "\<Esc>]50;CursorShape=0\x7"
+let &t_SI = "\e[6 q"
+let &t_EI = "\e[2 q"

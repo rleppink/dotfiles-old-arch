@@ -13,10 +13,10 @@ ctrl + alt + e
 
 # screenshot
 ctrl + shift + super + 3
-  maim | xclip -selection clipboard -t image/png
+    maim | xclip -selection clipboard -t image/png
 
 ctrl + shift + super + 4
-	maim -s | xclip -selection clipboard -t image/png
+    maim -s | xclip -selection clipboard -t image/png
 
 
 # terminal emulator
@@ -29,10 +29,21 @@ XF86AudioRaiseVolume
 	amixer set Master 5%+ -M
 
 XF86AudioLowerVolume
-  amixer set Master 5%- -M
+    amixer set Master 5%- -M
 
 XF86AudioMute
-  amixer set Master toggle
+    amixer set Master toggle
+
+
+# brightness controls
+XF86MonBrightnessUp
+    tbr -si 1
+
+XF86MonBrightnessDown
+    tbr -sd 1
+
+XF86Display
+    tbr -t
 
 
 # reload sxhkd config
