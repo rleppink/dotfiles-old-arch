@@ -21,7 +21,7 @@ set number                      " show line numbers
 
 
 "" Colors
-colorscheme base16-chalk
+colorscheme my-base16-chalk
 set background=light
 
 
