@@ -13,6 +13,7 @@ cryptsetup
 device-mapper
 dhcpcd
 diffutils
+discord
 dropbox
 dropbox-cli
 e2fsprogs
@@ -42,6 +43,7 @@ gzip
 haskell-hlint
 hlint
 htop
+imagemagick
 inetutils
 inotify-tools
 intel-ucode
@@ -69,6 +71,7 @@ mpv
 mutt
 nano
 ncmpcpp
+neofetch
 netctl
 openssh
 pacaur
@@ -118,6 +121,7 @@ wpa_actiond
 wpa_supplicant
 xclip
 xdotool
+xf86-input-synaptics
 xfsprogs
 xorg-server
 xorg-utils

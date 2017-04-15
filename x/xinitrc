@@ -1,5 +1,5 @@
 # Remove mouse when typing
-unclutter &
+xbanish &
 
 # Merge xresources for colors etc.
 xrdb -merge -I$HOME ~/.Xresources
@@ -11,12 +11,10 @@ xmodmap ~/.xmodmap
 xset -b
 
 # Set background
-feh --bg-fill ~/Dropbox/pics/wollz/pinkflowers.jpg
+feh --bg-fill ~/Dropbox/pics/wollz/bluepink.png
 
 # bar
-polybar battery &
-polybar date &
-polybar docked-bar &
+polybar bar &
 
 # service for  telegram urgency as it doesn't do that itself
 telegram-urgency &

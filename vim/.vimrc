@@ -21,8 +21,8 @@ set number                      " show line numbers
 
 
 "" Colors
-colorscheme base16-chalk
-set background=light
+"colorscheme base16-chalk
+"set background=light
 
 
 "" Whitespace
@@ -43,7 +43,6 @@ set smartcase                   " ... unless they contain at least one capital l
 "" Cursor
 set scrolloff=10
 set colorcolumn=100
-set cursorline
 
 
 "" Change cursor to caret in insert mode or block caret in normal mode
@@ -74,12 +73,12 @@ set list
 
 
 "" gvim
-set guifont=DejaVu_Sans_Mono:h9:cANSI
+set guifont="DejaVu Sans Mono":h9:cANSI
 set guioptions-=T            " Remove toolbar
 set guioptions-=m            " Remove menu
 set guioptions-=r            " Remove right scrollbar
 set guioptions-=L            " Remove left scrollbar
-set lines=80 columns=140 linespace=0
+set lines=40 columns=110 linespace=0
 set vb                       " visual bell
 set t_vb=""                  " no beeping
 set mousemodel=popup_setpos
