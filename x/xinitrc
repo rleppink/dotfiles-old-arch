@@ -14,7 +14,7 @@ xset -b
 feh --bg-fill ~/Dropbox/pics/wollz/bluepink.png
 
 # bar
-polybar bar &
+polybar bar -r &
 
 # service for  telegram urgency as it doesn't do that itself
 telegram-urgency &
