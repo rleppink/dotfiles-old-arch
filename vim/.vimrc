@@ -73,7 +73,7 @@ set list
 
 
 "" gvim
-set guifont=DejaVu_Sans_Mono:h9:cANSI
+set guifont="DejaVu Sans Mono":h9:cANSI
 set guioptions-=T            " Remove toolbar
 set guioptions-=m            " Remove menu
 set guioptions-=r            " Remove right scrollbar
@@ -84,3 +84,8 @@ set t_vb=""                  " no beeping
 set mousemodel=popup_setpos
 
 
+"" Windows specific settings & overrides
+if has("win32")
+    set guifont=DejaVu_Sans_Mono:h9:cANSI
+    set lines=74 columns=140 linespace=0
+endif
