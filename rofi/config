@@ -14,7 +14,8 @@ rofi.columns: 1
 rofi.font: DejaVu Sans Mono 10
 
 ! Color scheme for normal row
-rofi.color-normal: #FAFAFA,#222222,#FAFAFA,#FFB6C1,#FAFAFA
+! rofi.color-normal: #FAFAFA,#222222,#FAFAFA,#FFB6C1,#FAFAFA
+! rofi.color-normal: $base08,#222222,#FAFAFA,#FFB6C1,#FAFAFA
 
 ! Color scheme for urgent row
 ! rofi.color-urgent: #fdf6e3,#dc322f,#eee8d5,#dc322f,#fdf6e3
@@ -23,7 +24,7 @@ rofi.color-normal: #FAFAFA,#222222,#FAFAFA,#FFB6C1,#FAFAFA
 ! rofi.color-active: #fdf6e3,#268bd2,#eee8d5,#268bd2,#fdf6e3
 
 ! Color scheme window
-rofi.color-window: #FAFAFA,#999,#999,#999
+! rofi.color-window: #FAFAFA,#999,#999,#999
 
 ! Border width
 ! rofi.bw: 1

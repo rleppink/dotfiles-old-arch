@@ -21,7 +21,7 @@ set number                      " show line numbers
 
 
 "" Colors
-colorscheme my-base16-chalk
+colorscheme base16-chalk
 set background=light
 
 
@@ -43,12 +43,13 @@ set smartcase                   " ... unless they contain at least one capital l
 "" Cursor
 set scrolloff=10
 set colorcolumn=100
-set cursorline
 
 
 "" Change cursor to caret in insert mode or block caret in normal mode
-let &t_SI = "\<Esc>]50;CursorShape=1\x7"
-let &t_EI = "\<Esc>]50;CursorShape=0\x7"
+"let &t_SI = "\<Esc>]50;CursorShape=1\x7"
+"let &t_EI = "\<Esc>]50;CursorShape=0\x7"
+let &t_SI = "\e[6 q"
+let &t_EI = "\e[2 q"
 
 
 "" File syntax detection
@@ -77,8 +78,9 @@ set guioptions-=T            " Remove toolbar
 set guioptions-=m            " Remove menu
 set guioptions-=r            " Remove right scrollbar
 set guioptions-=L            " Remove left scrollbar
-set lines=80 columns=140 linespace=0
+set lines=40 columns=110 linespace=0
 set vb                       " visual bell
 set t_vb=""                  " no beeping
 set mousemodel=popup_setpos
+
 

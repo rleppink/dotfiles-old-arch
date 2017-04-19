@@ -1,7 +1,7 @@
 [colors]
-pink = #ffb6c1
-light = #fafafa
-dark = #222222
+pink  = ${xrdb:*.color1:#FF0000}
+light = ${xrdb:*.color0:#FF0000}
+dark  = ${xrdb:*.color15:#FF0000}
 
 
 [global/wm]
@@ -21,12 +21,12 @@ font-0 = Dejavu Sans Mono:size=8;3
 overline-size = 2
 undeline-size = 2
 
-separator = " - "
+separator = " "
 
 wm-restack = bspwm
 
 
-[bar/docked-bar]
+[bar/bar]
 inherit = section/shared
 
 height = 20
@@ -40,38 +40,7 @@ padding-left = 1
 padding-right = 2
 
 modules-center = bspwm 
-
-
-[bar/date]
-inherit = section/shared
-
-width = 180
-offset-x = 1178
-offset-y = 0
-
-background = ${colors.pink}
-foreground = ${colors.light}
-
-padding-left = 0
-padding-right = 0
-
-modules-center = date 
-
-
-[bar/battery]
-inherit = section/shared
-
-width = 45
-offset-x = 1125
-offset-y = 0
-
-background = ${colors.pink}
-foreground = ${colors.light}
-
-padding-left = 2
-padding-right = 2
-
-modules-center = battery 
+modules-right  = battery date
 
 
 [module/bspwm]
@@ -100,7 +69,14 @@ adapter = AC
 poll-interval = 5
 
 label-charging = %percentage%%+
+label-charging-foreground = ${colors.light}
+label-charging-background = ${colors.pink}
+label-charging-padding = 1
+
 label-discharging = %percentage%%-
+label-discharging-foreground = ${colors.light}
+label-discharging-background = ${colors.pink}
+label-discharging-padding = 1
 
 
 [module/date]
@@ -112,6 +88,9 @@ date = "%A %d %B"
 time = %H:%M
 
 label = %date% %time%
+label-foreground = ${colors.light}
+label-background = ${colors.pink}
+label-padding = 1
 
 
 [module/volume]

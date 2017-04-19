@@ -13,6 +13,7 @@ cryptsetup
 device-mapper
 dhcpcd
 diffutils
+discord
 dropbox
 dropbox-cli
 e2fsprogs
@@ -23,6 +24,7 @@ feh
 file
 filesystem
 findutils
+firefox
 flex
 gawk
 gcc
@@ -41,6 +43,7 @@ gzip
 haskell-hlint
 hlint
 htop
+imagemagick
 inetutils
 inotify-tools
 intel-ucode
@@ -65,8 +68,10 @@ man-pages
 mdadm
 mesa
 mpv
+mutt
 nano
 ncmpcpp
+neofetch
 netctl
 openssh
 pacaur
@@ -81,6 +86,7 @@ postman-bin
 procps-ng
 psmisc
 ranger
+rdesktop
 redshift
 reiserfsprogs
 rfkill
@@ -99,6 +105,8 @@ telegram-desktop-bin
 texinfo
 tlp
 toilet
+transmission-gtk
+transmission-qt
 ttf-dejavu
 unclutter
 unzip
@@ -113,6 +121,7 @@ wpa_actiond
 wpa_supplicant
 xclip
 xdotool
+xf86-input-synaptics
 xfsprogs
 xorg-server
 xorg-utils
