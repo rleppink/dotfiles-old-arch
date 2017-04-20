@@ -87,5 +87,6 @@ set mousemodel=popup_setpos
 "" Windows specific settings & overrides
 if has("win32")
     set guifont=DejaVu_Sans_Mono:h9:cANSI
-    set lines=74 columns=140 linespace=0
+    set lines=74 columns=180 linespace=0
+    set cursorline
 endif
