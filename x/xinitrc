@@ -11,7 +11,7 @@ xmodmap ~/.xmodmap
 xset -b
 
 # Set background
-feh --bg-fill ~/Dropbox/pics/wollz/bluepink.png
+feh --bg-fill ~/Dropbox/pics/wollz/aesthetic-clouds.jpg
 
 # bar
 polybar bar -r &

@@ -3,6 +3,11 @@ super + space
     rofi -show
 
 
+# switch colors
+ctrl + super + r
+    ./.reload_colors.sh
+
+
 # redshift
 ctrl + alt + r
     redshift
@@ -12,10 +17,10 @@ ctrl + alt + e
 
 
 # screenshots
-shift + super + 3
+alt + shift + super + 3
     maim ~/Pictures/Screenshots/$(date -Iseconds | sed 's/\+.*//g').png
 
-shift + super + 4
+alt + shift + super + 4
     maim -s ~/Pictures/Screenshots/$(date -Iseconds | sed 's/\+.*//g').png
 
 ctrl + shift + super + 3
@@ -48,8 +53,25 @@ XF86MonBrightnessUp
 XF86MonBrightnessDown
     tbr -sd 1
 
+shift + XF86AudioRaiseVolume
+    tbr -si 1
+
+shift + XF86AudioLowerVolume
+    tbr -sd 1
+
+ctrl + shift + XF86AudioRaiseVolume
+    tbr -i 1
+
+ctrl + shift + XF86AudioLowerVolume
+    tbr -d 1
+
 XF86Launch1
     tbr -t
+
+
+# touchpad
+XF86TouchpadToggle
+    synclient TouchpadOff=1
 
 
 # reload sxhkd config

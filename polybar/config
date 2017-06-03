@@ -9,38 +9,53 @@ margin-top = 0
 margin-bottom = 0
 
 
-[section/shared]
+[section/bar-shared]
 monitor = ${env:MONITOR:LVDS-1}
 height = 20
 
+border-left-size = 2
+border-left-color = ${colors.pink}
+border-right-size = 2
+border-right-color = ${colors.pink}
 border-bottom-size = 2
 border-bottom-color = ${colors.pink}
+
+background = ${colors.light}
+foreground = ${colors.dark}
 
 font-0 = Dejavu Sans Mono:size=8;3
 
 overline-size = 2
 undeline-size = 2
 
-separator = " "
+separator = "  "
 
 wm-restack = bspwm
 
+modules-center = bspwm
+modules-right  = battery date
 
-[bar/bar]
-inherit = section/shared
-
-height = 20
-offset-x = 0
-offset-y = 0
-
-background = ${colors.light}
-foreground = ${colors.dark}
-
-padding-left = 1
+padding-left = 0
 padding-right = 2
 
-modules-center = bspwm 
-modules-right  = battery date
+#tray-position = left
+
+[bar/bar]
+inherit = section/bar-shared
+
+width = 1350
+offset-x = 8
+
+[bar/float-bar]
+inherit = section/bar-shared
+
+offset-x = 8
+offset-y = 8
+
+border-size = 2
+border-color = ${colors.pink}
+
+width = 1350
 
 
 [module/bspwm]
@@ -78,6 +93,8 @@ label-discharging-foreground = ${colors.light}
 label-discharging-background = ${colors.pink}
 label-discharging-padding = 1
 
+label-full =
+
 
 [module/date]
 type = internal/date
@@ -96,28 +113,14 @@ label-padding = 1
 [module/volume]
 type = internal/volume
 
-format-volume = <label-volume> <bar-volume>
-label-volume = 
-label-volume-foreground = ${root.foreground}
+format-volume = <label-volume>
 
-format-muted-foreground = ${colors.foreground}
 label-muted = sound muted
+label-muted-background = ${colors.pink}
+label-muted-foreground = ${colors.light}
+label-muted-padding = 1
 
-bar-volume-width = 10
-bar-volume-foreground-0 = #55aa55
-bar-volume-foreground-1 = #55aa55
-bar-volume-foreground-2 = #55aa55
-bar-volume-foreground-3 = #55aa55
-bar-volume-foreground-4 = #55aa55
-bar-volume-foreground-5 = #f5a70a
-bar-volume-foreground-6 = #ff5555
-bar-volume-gradient = false
-bar-volume-indicator = │
-bar-volume-indicator-font = 2
-bar-volume-indicator-foreground = #ff
-bar-volume-fill = ─
-bar-volume-fill-font = 2
-bar-volume-empty = ─
-bar-volume-empty-font = 2
-bar-volume-empty-foreground = ${colors.foreground-alt}
+label-volume-background = ${colors.pink}
+label-volume-foreground = ${colors.light}
+label-volume-padding = 1
 

@@ -8,6 +8,7 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'neapel/vim-java-bytecode'
 Plug 'ctrlpvim/ctrlp.vim'
+
 Plug 'neovimhaskell/haskell-vim'
 
 call plug#end()
@@ -16,13 +17,10 @@ call plug#end()
 "" Basic settings
 syntax enable
 set encoding=utf-8
+filetype off
 filetype plugin indent on       " load file type plugins + indentation
 set number                      " show line numbers
 
-
-"" Colors
-colorscheme base16-chalk
-set background=light
 
 
 "" Whitespace
@@ -78,15 +76,22 @@ set guioptions-=T            " Remove toolbar
 set guioptions-=m            " Remove menu
 set guioptions-=r            " Remove right scrollbar
 set guioptions-=L            " Remove left scrollbar
-set lines=40 columns=110 linespace=0
+"set lines=40 columns=110 linespace=0
 set vb                       " visual bell
 set t_vb=""                  " no beeping
 set mousemodel=popup_setpos
 
+
+set cursorline
+hi CursorLine term=reverse ctermbg=224 guibg=LightRed cterm=none
 
 "" Windows specific settings & overrides
 if has("win32")
     set guifont=DejaVu_Sans_Mono:h9:cANSI
     set lines=74 columns=180 linespace=0
     set cursorline
+
+    "" Colors
+    colorscheme base16-chalk
+    set background=light
 endif
