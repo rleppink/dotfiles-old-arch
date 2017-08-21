@@ -16,8 +16,9 @@ song_library_format = "{%n - }{%t}|{%f}"
 
 ## Note: Below variables also supports
 ## text attributes listed above.
-now_playing_prefix = "$b$2 └─>"
-now_playing_suffix = "$/b"
+#now_playing_prefix = "$b$2 └─>"
+now_playing_prefix = "$b$u$2"
+now_playing_suffix = "$/u$/b"
 #browser_playlist_prefix = "$2playlist$9 "
 #selected_item_prefix = "$6"
 #selected_item_suffix = "$9"
@@ -51,7 +52,7 @@ now_playing_suffix = "$/b"
 ##   tag and then composer and performer if previous ones are
 ##   not available.
 # (Organizes song column format in playlist)
-song_columns_list_format = "(5f)[blue]{l} (40)[yellow]{t|f} (25)[green]{b} (30)[red]{a}"
+song_columns_list_format = "(5f)[yellow]{l} (40)[blue]{t|f} (25)[green]{b} (30)[red]{a}"
 
 ##### various settings #####
 #

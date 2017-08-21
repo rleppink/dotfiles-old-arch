@@ -22,11 +22,12 @@ bspc config gapless_monocle false
 # App rules
 bspc rule -a Google-chrome desktop='^1'
 bspc rule -a Code desktop='^2'
-bspc rule -a TelegramDesktop desktop='^4' state=pseudo_tiled split_ratio=0.1 center=on
+bspc rule -a TelegramDesktop desktop='^4' state=pseudo_tiled center=on
 bspc rule -a discord desktop='^4'
 bspc rule -a mpv desktop='^5'
 bspc rule -a Steam desktop='^5' state=floating
 bspc rule -a keepassx state=floating
 bspc rule -a transmission-gtk state=psuedo_tiled
 bspc rule -a Zathura desktop='^3' state=tiled
+bspc rule -a XTerm split_ratio=0.75
 

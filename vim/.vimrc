@@ -6,10 +6,13 @@ set dir=~/.vim/swp
 "" Plug: Plugin manager
 call plug#begin('~/.vim/plugged')
 
-Plug 'neapel/vim-java-bytecode'
+" General plugins
 Plug 'ctrlpvim/ctrlp.vim'
 
+" Language specific plugins
+Plug 'neapel/vim-java-bytecode'
 Plug 'neovimhaskell/haskell-vim'
+Plug 'rhysd/vim-clang-format'
 
 call plug#end()
 
@@ -20,7 +23,12 @@ set encoding=utf-8
 filetype off
 filetype plugin indent on       " load file type plugins + indentation
 set number                      " show line numbers
+autocmd FileType c,cc,cpp,h ClangFormatAutoEnable
 
+"" Statusline
+set laststatus=2
+set statusline+=%F
+set statusline+=%=%-4.l
 
 
 "" Whitespace
@@ -81,9 +89,10 @@ set vb                       " visual bell
 set t_vb=""                  " no beeping
 set mousemodel=popup_setpos
 
+" let g:ycm_global_ycm_extra_conf = '/usr/share/vim/vimfiles/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py'
 
 set cursorline
-hi CursorLine term=reverse ctermbg=224 guibg=LightRed cterm=none
+hi CursorLine term=reverse ctermbg=231 guibg=LightRed cterm=none
 
 "" Windows specific settings & overrides
 if has("win32")

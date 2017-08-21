@@ -11,6 +11,10 @@ URxvt.saveLines: 10000
 URxvt.scrollBar: False
 URxvt.letterSpace: -1
 
+! Xterm config
+xterm*font: DejaVuSansMono
+
+
 ! Font config
 Xft.antialias: true
 Xft.autohint: false
@@ -23,6 +27,6 @@ Xft.rgba: rgb
 ! rofi color config
 ! rofi apparently doesnt support xresources colors from its
 ! own config file in ~/.config/rofi/config
-rofi.color-normal: #FAFAFA,#222222,#FAFAFA,#FFB6C1,#FAFAFA
-rofi.color-window: #FAFAFA,#999,#999,#999
+rofi.color-normal: base00,base07,base00,#FFB6C1,base00
+rofi.color-window: base00,#999,#999,#999
 

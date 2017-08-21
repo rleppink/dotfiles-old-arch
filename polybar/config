@@ -1,7 +1,7 @@
 [colors]
 pink  = ${xrdb:*.color1:#FF0000}
 light = ${xrdb:*.color0:#FF0000}
-dark  = ${xrdb:*.color15:#FF0000}
+dark  = ${xrdb:*.color21:#FF0000}
 
 
 [global/wm]
