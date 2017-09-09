@@ -23,7 +23,7 @@ bspc config gapless_monocle false
 bspc rule -a Google-chrome desktop='^1'
 bspc rule -a Code desktop='^2'
 bspc rule -a TelegramDesktop desktop='^4' state=pseudo_tiled center=on
-bspc rule -a discord desktop='^4'
+# bspc rule -a discord desktop='^4'
 bspc rule -a mpv desktop='^5'
 bspc rule -a Steam desktop='^5' state=floating
 bspc rule -a keepassx state=floating

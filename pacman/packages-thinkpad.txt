@@ -126,6 +126,8 @@ util-linux
 vbam-wx
 vi
 vim-youcompleteme-git
+virtualbox
+virtualbox-host-modules-arch
 visual-studio-code
 vlc
 w3m
